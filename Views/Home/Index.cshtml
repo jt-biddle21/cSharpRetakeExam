@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Homepage";
+}
+@model cSharpRetakeExam.Models.User
+<h2>Register Here:</h2>
+<form action="addUser" method="POST">
+    <label asp-for="Name"></label>
+    <input asp-for="Name">
+    <span asp-validation-for="Name"></span><br>
+
+    <label asp-for="Email"></label>
+    <input asp-for="Email">
+    <span asp-validation-for="Email"></span><br>
+
+    <label asp-for="Password"></label>
+    <input type="password" asp-for="Password">
+    <span asp-validation-for="Password"></span><br>
+
+    <label name="PasswordC">Confirm Password</label>
+    <input type="password" name="passConf"><br>
+
+    <label asp-for="Description"></label><br>
+    <textarea asp-for="Description" cols="50" rows="5" style="resize: none;"></textarea>
+    <span asp-validation-for="Description"></span><br>
+
+    <input type="submit" value="Register">
+</form>
+<hr>
+<h2>Log In:</h2>
+<form action="logging" method="POST">
+
+    <label name="Email">Email</label>
+    <input type="Email" name="Email"><br>
+
+    <label name="Password">Password</label>
+    <input type="password" name="PasswordToCheck"><br>
+
+    <input type="submit" value="Login">
+</form>

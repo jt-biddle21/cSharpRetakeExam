@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Homepage";
+}
+<a href="users">All Users</a> | <a href="logoff">Log Off</a>
+@foreach (var p in ViewBag.LoggedUser)
+{
+    <h2>Welcome @p.Name!</h2>
+    <h4>Here is your profile Description:</h4>
+    <p>@p.Description</p>
+}
+<h3>Your Professional Network:</h3>
+<table class="table table-striped">
+@foreach (var z in ViewBag.LoggedUser)
+{
+    @foreach (var x in ViewBag.Friends)
+    {
+        @if (@x.InviteId == @z.Id)
+        {
+            <tr>
+                <td><a href="users/@x.FriendName">@x.FriendName</a></td>
+            </tr>
+        }
+    }
+}
+</table>
+<h3>Invitations:</h3>
+<table class="table table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var x in ViewBag.LoggedUser)
+    {
+        @foreach(var z in ViewBag.Invitations)
+        {
+            @if(@x.Id != @z.InviteId)
+            {
+                <tr>
+                    <td><a href="users/@z.FriendName">@z.FriendName</a></td>
+                    <td><a href="acceptRequest/@z.FriendName">Accept Invite</a> | <a href="ignore/@z.FriendName">Ignore</a></td>
+                </tr>
+            }
+        }
+    }
+</table>

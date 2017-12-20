@@ -1,0 +1,9 @@
+/Users/justinbiddle/Desktop/DojoWork/DojoAssignments/netCore/cSharpRetakeExam/bin/Debug/netcoreapp1.1/cSharpRetakeExam.deps.json
+/Users/justinbiddle/Desktop/DojoWork/DojoAssignments/netCore/cSharpRetakeExam/bin/Debug/netcoreapp1.1/cSharpRetakeExam.runtimeconfig.json
+/Users/justinbiddle/Desktop/DojoWork/DojoAssignments/netCore/cSharpRetakeExam/bin/Debug/netcoreapp1.1/cSharpRetakeExam.runtimeconfig.dev.json
+/Users/justinbiddle/Desktop/DojoWork/DojoAssignments/netCore/cSharpRetakeExam/obj/Debug/netcoreapp1.1/cSharpRetakeExam.csproj.CoreCompileInputs.cache
+/Users/justinbiddle/Desktop/DojoWork/DojoAssignments/netCore/cSharpRetakeExam/obj/Debug/netcoreapp1.1/cSharpRetakeExam.AssemblyInfo.cs
+/Users/justinbiddle/Desktop/DojoWork/DojoAssignments/netCore/cSharpRetakeExam/bin/Debug/netcoreapp1.1/cSharpRetakeExam.dll
+/Users/justinbiddle/Desktop/DojoWork/DojoAssignments/netCore/cSharpRetakeExam/bin/Debug/netcoreapp1.1/cSharpRetakeExam.pdb
+/Users/justinbiddle/Desktop/DojoWork/DojoAssignments/netCore/cSharpRetakeExam/obj/Debug/netcoreapp1.1/cSharpRetakeExam.dll
+/Users/justinbiddle/Desktop/DojoWork/DojoAssignments/netCore/cSharpRetakeExam/obj/Debug/netcoreapp1.1/cSharpRetakeExam.pdb

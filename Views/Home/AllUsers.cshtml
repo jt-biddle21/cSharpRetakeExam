@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<a href="/professional_profile">My Profile</a> | <a href="logoff">Log Off</a>
+<h2>Users to connect with:</h2>
+<table class="table table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var x in ViewBag.AllUsers)
+    {
+        <tr>
+            <td>@x.Name</td>
+            <td><a href="request/@x.Id">Connect</a></td>
+        </tr>
+    }  
+</table>

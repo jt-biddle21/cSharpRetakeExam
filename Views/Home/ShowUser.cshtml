@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Details";
+}
+<a href="/professional_profile">My Profile</a> | <a href="logoff">Log Off</a>
+@foreach(var x in ViewBag.SpecUser)
+{
+    <h2>@x.Name</h2>
+    <p>Description:</p>
+    <p>@x.Description</p>
+}
